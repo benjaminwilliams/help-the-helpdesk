@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "content_scripts": [ {
+      "css": [ "fixme.css" ],
+      "matches": [ "*://helpdesk/*" ]
+   } ],
+
+  "name": "Help the Helpdesk",
+  "description": "help out the helpdesk ",
+  "version": "0.4",
+
+  "permissions": [
+    "http://helpdesk/"
+  ]
+
+}

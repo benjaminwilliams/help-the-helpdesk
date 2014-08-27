@@ -1,0 +1,4 @@
+﻿/* Fixes for Helpdesk */
+html body form div#Body.documentBody {
+	height: 2000px;
+}
