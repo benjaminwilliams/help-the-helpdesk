@@ -1,6 +1,6 @@
 ﻿/* Fixes for Helpdesk */
 html body form div#Body.documentBody {
-	height: 2000px;
+	height: initial;
 }
 
 #divFloatingMenu table.menuTable {
