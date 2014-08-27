@@ -2,3 +2,33 @@
 html body form div#Body.documentBody {
 	height: 2000px;
 }
+
+#divFloatingMenu table.menuTable {
+	position: absolute;
+	top: 735px;
+	color: #fff;
+}
+
+#divFloatingMenu table.menuTable a {
+	padding: 10px;
+	background-color: #fff;
+	color: #444;
+	text-decoration: none;
+	border-radius: 4px;
+	margin-right: 20px;
+}
+
+#divFloatingMenu table.menuTable a:nth-child(2) {
+	background-color: #F0AE21;
+	color: #fff;
+	font-size: 16px;
+}
+
+TD.header, .historyheader {
+	background-color: #047DCE !important;
+	padding: 10px;
+}
+
+input, select {
+	padding: 5px;
+}
