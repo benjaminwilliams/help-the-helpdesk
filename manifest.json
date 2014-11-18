@@ -12,11 +12,12 @@
   },
 
   "content_scripts": [ {
-      "css": [ "fixme.css" ],
+      "css": [ "css/fixme.css" ],
       "matches": [ "*://helpdesk/*" ]
    } ],
 
   "permissions": [
-    "http://helpdesk/"
+    "http://helpdesk/",
+    "https://helpdesk/"
   ]
 }
