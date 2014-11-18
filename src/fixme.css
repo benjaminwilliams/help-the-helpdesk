@@ -2,7 +2,9 @@
 html body form div#Body.documentBody {
 	height: initial;
 }
-
+DIV.documentBody {
+	height: initial;
+}
 #divFloatingMenu table.menuTable {
 	position: fixed;
 	bottom: 0;
