@@ -3,7 +3,7 @@
 
   "name": "Help the Helpdesk",
   "description": "help out the helpdesk ",
-  "version": "0.5.1",
+  "version": "0.5.2",
 
   "icons": { 
     "16": "icon/icon16.png",
@@ -12,11 +12,12 @@
   },
 
   "content_scripts": [ {
-      "css": [ "fixme.css" ],
+      "css": [ "css/fixme.css" ],
       "matches": [ "*://helpdesk/*" ]
    } ],
 
   "permissions": [
-    "http://helpdesk/"
+    "http://helpdesk/",
+    "https://helpdesk/"
   ]
 }
