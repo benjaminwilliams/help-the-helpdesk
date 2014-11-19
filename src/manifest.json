@@ -13,7 +13,7 @@
 
   "content_scripts": [ {
       "css": [ "fixme.css" ],
-      "matches": [ "http://helpdesk/*" ]
+      "matches": [ "*://helpdesk/*" ]
    } ],
 
   "permissions": [

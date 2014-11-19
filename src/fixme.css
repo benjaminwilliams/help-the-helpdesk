@@ -1,6 +1,5 @@
 ﻿/* Fixes for Helpdesk */
-html body form div#Body.documentBody,
-DIV.documentBody {
+html body form div#Body.documentBody {
 	height: initial;
 }
 
