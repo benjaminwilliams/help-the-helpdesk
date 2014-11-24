@@ -1,9 +1,11 @@
 ﻿/* Fixes for Helpdesk */
 html body form div#Body.documentBody {
 	height: initial;
+	margin-bottom: 85px;
 }
+#document DIV.documentBody, #Body, 
 DIV.documentBody {
-	height: initial;
+	height: initial !important;
 }
 #divFloatingMenu table.menuTable {
 	position: fixed;
@@ -42,4 +44,17 @@ TD.header, .historyheader {
 
 input, select {
 	padding: 5px;
+}
+
+textarea {
+	width: 400px;
+	height: 200px;
+}
+
+#divFloatingMenu table.menuTable td:first-child:before {
+	content:  "Help the Helpdesk Chrome extention";
+	text-align: left;
+	font-size: 12px;
+	color: #000;
+	padding-right: 400px;
 }
